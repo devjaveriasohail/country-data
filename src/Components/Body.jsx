@@ -50,10 +50,10 @@ const Country = () => {
                         return (
                             <tbody className=" table-striped">
                                 <tr>
-                                    <td scope="col"><img src={data.flags.png} className="img-fluid" width="10%" height="8%" alt="..." /></td>
-                                    <td scope="col">{data.name.official.toUpperCase()}</td>
-                                    <td scope="col">{data.name.common.toUpperCase()}</td>
-                                    <td scope="col">{data.timezones}</td>
+                                    <th scope="col"><img src={data.flags.png} className="img-fluid" width="10%" height="8%" alt="..." /></th>
+                                    <th scope="col">{data.name.official.toUpperCase()}</th>
+                                    <th scope="col">{data.name.common.toUpperCase()}</th>
+                                    <th scope="col">{data.timezones}</th>
                                 </tr>
                             </tbody>
                         )
