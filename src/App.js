@@ -1,6 +1,6 @@
  import './App.css'
 import Country from './Components/Body';
-import Display from './Components/Display';
+// import Display from './Components/Display';
 
 function App () {
   return (
